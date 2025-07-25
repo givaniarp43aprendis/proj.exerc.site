@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/*
+#1924F0
+#7ECBF0
+#EF1B1B
+
+*/
+:root {
+  --cor0:  #1924F0;
+   --cor1: #7ECBF0;
+    --cor2:#EF1B1B;
+}
+
+body {
+    background-color: wheat;
+    font-family:cursive ;
+}
+header {
+   background-image: linear-gradient(to right, var(--cor0),var(--cor1));
+    padding: 20px;
+    margin: 0px;
+    border-radius: 10px 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.479);
+}
+
+
+header h1{
+    font-size: 3em;
+    color: #EF1B1B;
+    text-align: center;
+   padding: auto;
+   box-shadow: 5px white;
+}
+header p{
+    font-size: 2em;
+    color: #EF1B1B;
+    text-align: center;
+    padding: 2px 2px;
+}
+
+    
+main {
+    background-color: #7ECBF0;
+    color: #EF1B1B;
+    padding: 30px 30px;
+    margin: 30px 30px;
+    border-radius: 10px 30px;
+    box-shadow: 2px 2px yellow;
+}
+
+main  a {
+  
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+    box-shadow: 0px 7px 7px black;
+    border-radius: 7px;
+    transition-duration: 1s;
+
+}
+main  a:hover {
+    background-color:var(--cor0);
+    color: #EF1B1B;
+    text-decoration: underline;
+}
+
+main h2{
+    color: darkgreen;
+    padding-right: 10px 20px;
+}
+main p {
+    text-indent: 30px;
+   font-weight:2em ;
+}
+strong {
+    color: darkgreen;
+}
+img {
+  border-radius: 25%;
+  box-shadow: 2px 2px var(--cor2);
+}
+div.video {
+    background-color: #1924F0;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    height: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+  aside > ul {
+     
+  background-color: gainsboro;
+  padding: 30px 30px;
+  border-radius: 20px 20px;
+  }
+  
+ nav > a.externo {
+    color: #EF1B1B;
+  }
+
+    footer a {
+        color: #EF1B1B;
+        text-align: left;
+        text-decoration: none;
+        margin: 30px;
+        padding: 30px;
+        font-weight: bold;
+    }
+    footer a:hover {
+        text-decoration: underline;
+        color: darkgreen;
+    }
+footer {
+    color: var(--cor0);
+    text-align: center;
+    text-decoration: none;
+}
+
+
